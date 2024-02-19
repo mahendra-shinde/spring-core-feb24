@@ -5,10 +5,10 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class AppConfig {
-
-	@Bean
-	public AccountService oldService() {
-		return new AccountServiceImpl();
-	}
-	
+//
+//	@Bean
+//	public AccountService oldService() {
+//		return new AccountServiceImpl();
+//	}
+//	
 }
