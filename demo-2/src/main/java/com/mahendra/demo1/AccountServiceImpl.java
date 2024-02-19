@@ -10,7 +10,7 @@ public class AccountServiceImpl  implements AccountService{
 	
 	@Override
 	public void deposit(int accountId, double amt) {
-		double oldBalance = accounts.get(accountId).doubleValue();
+		double oldBalance = accounts.getOrDefault(accountId,0D).doubleValue();
 		oldBalance += amt;
 		accounts.put(accountId, oldBalance);
 	}
