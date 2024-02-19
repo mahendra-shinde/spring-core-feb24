@@ -1,0 +1,13 @@
+<?xml version="1.0"/>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="acc1" class="com.mahendra.demo6.Account">
+		<property name="accNum" value="101"/>
+		<property name="customer" value="Rajiv" />
+		<property name="balance" value="10000" />
+	</bean>
+
+</beans>
